@@ -1,23 +1,14 @@
-function Limpiar() {
-    document.getElementById('miformulario').reset();
-}
-function sumar() {
-    var x = parseInt(document.getElementById('valor1').value);
-    var y = parseInt(document.getElementById('valor2').value);
-    document.getElementById('el-resultado').innerHTML = x+y;
-}
-function restar() {
-    var x = parseInt(document.getElementById('valor1').value);
-    var y = parseInt(document.getElementById('valor2').value);
-    document.getElementById('el-resultado').innerHTML = x-y;
-}
-function multiplicar() {
-    var x = parseInt(document.getElementById('valor1').value);
-    var y = parseInt(document.getElementById('valor2').value);
-    document.getElementById('el-resultado').innerHTML = x*y;
-}
-function dividir() {
-    var x = parseInt(document.getElementById('valor1').value);
-    var y = parseInt(document.getElementById('valor2').value);
-    document.getElementById('el-resultado').innerHTML = x/y;
-}
+const doctorStrange = {nombre:doctorStrange, clasificacion:APT, precio:800}
+const Minions = {nombre:Minions, clasificacion:APT, precio:500}
+const ForrestGump = {nombre:ForrestGump, clasificacion:SAM16, precio:800}
+const Scarface = {nombre:Sccarface, clasificacion:SAM18, precio:800}
+const Batman = {nombre:Batman, clasificacion:SAM16, precio:800}
+const TheSuicideSquad = {nombre:TheSuicideSquad, clasificacion:SAM18, precio:700}
+
+
+let numeros = [1,2,3,4,5]
+for (let i = 0; i < numeros.length; i++) {
+
+    console.log(numeros[i])
+    
+    }
