@@ -1,0 +1,7 @@
+.pelicula{
+    border: 1px solid red;
+    margin: 20px;
+}
+.boton-volver{
+    display: block;
+}
